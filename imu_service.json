@@ -12,6 +12,56 @@
       "id": 0,
       "name": "AxisRemap",
       "type": "int8_t[3]"
+    },
+    {
+      "id": 1,
+      "name": "Disable Collision Detection",
+      "type": "uint8_t"
+    },
+    {
+      "id": 2,
+      "name": "Collision Accel Threshold",
+      "type": "float"
+    },
+    {
+      "id": 3,
+      "name": "Collision Gyro Threshold",
+      "type": "float"
+    },
+    {
+      "id": 4,
+      "name": "Collision Jerk Threshold",
+      "type": "float"
+    },
+    {
+      "id": 5,
+      "name": "Collision Gravity Filter Hz",
+      "type": "float"
+    },
+    {
+      "id": 6,
+      "name": "Collision Wheel Current Threshold",
+      "type": "float"
+    },
+    {
+      "id": 7,
+      "name": "Collision Actual Linear Speed Threshold",
+      "type": "float"
+    },
+    {
+      "id": 8,
+      "name": "Collision Actual Angular Speed Threshold",
+      "type": "float"
+    },
+    {
+      "id": 9,
+      "name": "Collision Actual Speed Drop Threshold",
+      "type": "float"
+    },
+    {
+      "id": 10,
+      "name": "Collision Consecutive Samples",
+      "type": "uint16_t"
     }
   ],
   "type": "ImuService",
