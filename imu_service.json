@@ -5,6 +5,11 @@
       "id": 0,
       "name": "Axes",
       "type": "double[9]"
+    },
+    {
+      "id": 1,
+      "name": "CollisionDebug",
+      "type": "double[10]"
     }
   ],
   "registers": [
@@ -62,8 +67,13 @@
       "id": 10,
       "name": "Collision Consecutive Samples",
       "type": "uint16_t"
+    },
+    {
+      "id": 11,
+      "name": "Collision Signal Filter Hz",
+      "type": "float"
     }
   ],
   "type": "ImuService",
-  "version": 1
+  "version": 2
 }
