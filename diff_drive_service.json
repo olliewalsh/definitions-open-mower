@@ -76,6 +76,11 @@
     },
     {
       "id": 5,
+      "name": "Wheel Speed Kd",
+      "type": "double"
+    },
+    {
+      "id": 6,
       "name": "Max Duty",
       "type": "double"
     }
